@@ -22,7 +22,7 @@ export default function LoginPage (){
             const response = await axios.post("./api/users/login", user)
             console.log("Login success", response.data)
             toast.success("Login success")
-            router.push('/profile')
+            router.push('./profile')
         } catch (error: any) {
             console.log("Login failed", error.message)
             toast.error(error.message)
@@ -32,7 +32,7 @@ export default function LoginPage (){
     }
 
     useEffect(() => {
-            if(user.email.length > 0 && user.password.length){
+            if(user.email.length > 0 && user.password.length > 0){
                 setButtonDisabled(false)
             } else {
                 setButtonDisabled(true)
