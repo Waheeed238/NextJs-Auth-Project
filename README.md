@@ -2,33 +2,18 @@
 
 This is a Next.js project for user authentication, including signup, login, logout, and email verification functionalities.
 
-## Getting Started
+## Project Overview
 
-First, install the dependencies:
+- **Purpose**: User authentication system.
+- **Technologies**: Next.js, TypeScript, MongoDB, Tailwind CSS.
 
-```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-# or
-bun install
-```
+## Features
 
-Then, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- User Signup
+- User Login
+- User Logout
+- Email Verification
+- User Profile Management
 
 ## Project Structure
 
@@ -62,27 +47,3 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
   - `models/`: Database models.
 - `tailwind.config.ts`: Tailwind CSS configuration.
 - `tsconfig.json`: TypeScript configuration.
-
-## Environment Variables
-
-Create a `.env` file in the root of your project and add the following environment variables:
-
-```env
-MONGO_URL=your_mongodb_connection_string
-TOKEN_SECRET=your_jwt_secret
-```
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- Next.js Documentation - learn about Next.js features and API.
-- Learn Next.js - an interactive Next.js tutorial.
-
-You can check out the Next.js GitHub repository - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
-
-Check out our Next.js deployment documentation for more details.
